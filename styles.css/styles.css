@@ -7,6 +7,9 @@
     box-sizing: border-box;
   }
 
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
   body {
     background-color: rgb(54, 54, 212);
   }
@@ -26,7 +29,8 @@ header {
     background-color: rgb(201, 203, 204);
     padding: 15px;
     border-radius: 15px;
-    background-color: #e8f1f2
+    background-color: #e8f1f2;
+   
     
 }
 
@@ -60,7 +64,7 @@ header {
     margin: 5px;
     width: 80px;
     height: 80px;
-    box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.75);
     font-size: 40px;
     border: none;
     color: white;
@@ -77,4 +81,13 @@ header {
 
 button#clear {
     background-color:lightcoral;
+}
+
+
+footer {
+   color:#028090;
+}
+footer a {
+    text-decoration: none;
+    color: #114B5F;
 }
