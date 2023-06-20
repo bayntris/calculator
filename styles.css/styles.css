@@ -26,35 +26,55 @@ header {
     background-color: rgb(201, 203, 204);
     padding: 15px;
     border-radius: 15px;
-   
+    background-color: #e8f1f2
+    
 }
 
 
 .calculatorBody {
     display: flex;
     flex-direction: column;
-  
     
     
+   
  
 }
 
 .calculatorDisplay {
-  padding: 20px;
+    background-color: rgb(243, 230, 216);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #028090;
     
 }
+
+
 .row {
     display: flex;
     
     
 }
 
-.row button {
+.calculator button {
     flex: 1;
     margin: 5px;
     width: 80px;
     height: 80px;
     box-shadow: 0 8px 6px -6px black;
+    font-size: 40px;
     border: none;
+    color: white;
     
+}
+
+.button-number {
+    background-color: #028090;
+}
+
+.button-operator {
+    background-color: #114B5F;
+}
+
+button#clear {
+    background-color:lightcoral;
 }
